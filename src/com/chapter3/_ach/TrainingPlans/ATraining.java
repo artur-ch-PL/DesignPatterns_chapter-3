@@ -1,6 +1,6 @@
 package com.chapter3._ach.TrainingPlans;
 
-public abstract class Training {
+public abstract class ATraining {
 	String description  = "Description of training session:";
 	
 	
@@ -8,5 +8,5 @@ public abstract class Training {
 		return description;
 	}
 
-	public abstract int energy_cost();
+	public abstract int recalculateEnergyCost();
 }

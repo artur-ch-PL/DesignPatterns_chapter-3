@@ -1,13 +1,13 @@
 package com.chapter3._ach.TrainingPlans;
 
-public class WholeBody_Training extends Training {
+public class WholeBodyTraining extends ATraining {
 
-	public WholeBody_Training() {
+	public WholeBodyTraining() {
 		description = "Whole Body Training";
 	}
 	
 	@Override
-	public int energy_cost() {
+	public int recalculateEnergyCost() {
 		return 1500;
 	}
 
